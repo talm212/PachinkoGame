@@ -8,7 +8,7 @@ public class Hello {
 
     @RequestMapping("/")
     public String index() {
-        return "Tal is the king!";
+        return "Lior is the king!";
     }
 
 }
