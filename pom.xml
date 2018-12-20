@@ -58,6 +58,12 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.microsoft.azure</groupId>
+			<artifactId>azure-webapp-maven-plugin</artifactId>
+			<version>0.1.2</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>

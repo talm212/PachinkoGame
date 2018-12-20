@@ -6,8 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class Hello {
 
-    @RequestMapping("/lior")
+    @RequestMapping("/")
     public String index() {
+        return "Default!";
+    }
+
+    @RequestMapping("/lior")
+    public String index1() {
         return "Lior is the king!";
     }
 
