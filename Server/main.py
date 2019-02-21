@@ -14,8 +14,8 @@ CORS(app)
 
 
 users = [
-    User(1, 'user1', 'abcxyz'),
-    User(2, 'user2', 'abcxyz'),
+    User(1, 'user1', 'abcxyz', 'bla@gmail.com'),
+    User(2, 'user2', 'abcxyz', 'bla2@gmail.com')
 ]
 
 username_table = {u.username: u for u in users}
